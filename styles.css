@@ -2222,12 +2222,12 @@ nav {
 }
 
 @media screen and (max-width: 599px) {
-  /* .nav-logo {
-    margin-left: -15px;
-    margin-top: -15px;
-    width: 6rem;
-    height: 5rem;
-  } */
+  .nav-logo {
+    margin-left: -8px;
+    /* margin-top: -15px; */
+    width: 5.3rem;
+    /* height: 5rem; */
+  }
 
   
   /* header */
