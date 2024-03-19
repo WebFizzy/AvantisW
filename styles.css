@@ -1320,7 +1320,7 @@ nav {
   /* gap: 3rem; */
 }
 .help-container {
-  background: var(--color-gray-800);
+  background: var(--color-gray-900);
   color: var(--color-gray-300);
   padding: 0.8rem 1rem;
   border: none;
@@ -1338,7 +1338,7 @@ nav {
   margin-left: 0.6rem;
 }
 .help-container h3, .help-container p, .help-container a i {
-  color: var(--color-gray-300);
+  color: var(--color-gray-500);
 }
 
 .help-pract h3, .help-pract p {
@@ -2225,7 +2225,7 @@ nav {
   .nav-logo {
     margin-left: -8px;
     /* margin-top: -15px; */
-    width: 5.3rem;
+    width: 5.8rem;
     /* height: 5rem; */
   }
 
