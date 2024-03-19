@@ -788,7 +788,7 @@ nav {
 
 /* second swiper sec */
 #icon-sec {
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('../images/meeting-5395615_1280.jpg');
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('./images/meeting-5395615_1280.jpg');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
