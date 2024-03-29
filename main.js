@@ -176,3 +176,12 @@ class CountUp {
   new CountUp('#start1', '#counter1')
   new CountUp('#start2', '#counter2')
 
+
+// page loader
+  window.addEventListener('load', function() {
+    var loader = document.querySelector('.loader-container');
+    var content = document.querySelector('.content');
+
+    loader.style.display = 'none'; // Hide loader
+    content.style.display = 'block'; // Show content
+});
