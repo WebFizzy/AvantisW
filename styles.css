@@ -633,6 +633,34 @@ nav {
   color: rgb(52, 147, 230);
 }
 
+/* Payments */
+.pay {
+  width: var(--container-width-lg);
+  margin: auto;
+  margin-top: 2rem;
+}
+.pay1 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.pay p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.pay2 img{
+  width: 10rem;
+  background-color: black;
+  padding: 5px;
+}
+.pay3 {
+  width: 8rem;
+  padding: 5px;
+}
+
 
 
 
@@ -1497,6 +1525,14 @@ nav {
   .swiper-slide .mid-swipe {
     padding-top: 4rem;
   }
+
+    /* payment */
+  .pay2 img{
+    width: 6rem;
+  }
+  .pay3 {
+    width: 5rem;
+  }
 }
 
 
@@ -2262,5 +2298,18 @@ nav {
   .abt-second p {
     /* width: 100%; */
     margin: 8px auto;
+  }
+
+/*   payments */
+    .pay1 {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .pay2 img{
+    width: 5rem;
+  }
+  .pay3 {
+    width: 4rem;
+    padding: 0px 5px;
   }
 }
