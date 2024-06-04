@@ -866,35 +866,59 @@ nav {
 
 
 /* btc section */
-.btc-container {
-  width: 100%;
-}
-.btc-cont {
-  width: var(--container-width-lg);
+
+.gold-cont {
+  display: flex;
+  width: 95%;
   margin: auto;
 }
-.btc-head {
-  text-align: center;
-  margin: 1rem 0 2rem;
+.gold-img {
+  width: 50%;
 }
-.btc-head p {
-  margin-bottom: 1rem;
+.gold-img2 {
+  margin: 1.5rem auto;
 }
-.container2 {
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-}
-.cols {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-}
-#crypto-widget-CoinList {
+.gold-img2 p {
   width: 100%;
-  margin: auto;
 }
 
+.goldbtn {
+  margin-top: 3.5rem;
+}
+.goldbtn a {
+  background-color: #fa8d0c;
+  padding: .5rem .7rem;
+}
+
+
+@media screen and (max-width: 650px) {
+  .gold-cont {
+    display: block;
+    width: 100%;
+    /* margin: auto; */
+  }
+  .gold-img {
+    width: 95%;
+    margin: auto;
+  }
+  .gold-img2 {
+    /* margin: 1.5rem auto; */
+  }
+  .gold-img2 p {
+    /* width: 100%; */
+  }
+  
+  .goldbtn {
+    margin-top: 3.5rem;
+  }
+  .goldbtn a {
+    background-color: #fa8d0c;
+    padding: .5rem .7rem;
+  }
+  .imgPhone {
+    margin-top: 3rem;
+  }
+}
 /* second swiper sec */
 #icon-sec {
   background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('./images/meeting-5395615_1280.jpg');
