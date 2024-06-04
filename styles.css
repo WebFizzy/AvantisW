@@ -10,7 +10,9 @@
 
 :root {
   --container-width-lg: 90%;
-  --container-width-sm: 90%;
+  --container-width-sm: 95%;
+
+/*   --container-width-sm: 90%; */
 
   --radius-1: 2rem;
   --radius-2: 1.2rem;
@@ -103,18 +105,20 @@ h2 {
   font-weight: 500;
   display: inline-block;
   padding: .85rem 2.2rem;
-  border-radius: var(--radius-1);
+  /* border-radius: var(--radius-1); */
   width: fit-content;
+  /* border-radius: 2px; */
+
   cursor: pointer;
   transition: var(--transition);
 }
 
 .btn.sm {
-  padding: 0.4rem .9rem;
+  padding: 0.3rem .5rem;
   font-weight: 400;
-  border-radius: var(--radius-4);
+  border-radius: 5px;
+  /* border-radius: var(--radius-4); */
 }
-
 .btn.primary {
   background: var(--color-primary);
   color: white;
@@ -206,11 +210,10 @@ nav {
 
 .nav-logo {
   margin-left: -15px;
-  margin-top: -22px;
-  width: 7.5rem;
-  height: 5.3rem;
+  /* margin-top: -2px; */
+  width: 5.5rem;
+  /* height: 5.3rem; */
 }
-
 .nav-menu {
   display: flex;
   align-items: center;
@@ -379,9 +382,13 @@ nav {
 .swipe-cont span, .solu span {
   color: orange;
 }
+.swipe-cont i {
+  color: white;
+}
 .swipe-cont h1 {
   color: var(--color-first);
   font-size: 3.1rem;
+  margin-top: .5rem;
 }
 .swipe-cont2 {
   color: var(--color-first);
@@ -423,8 +430,17 @@ nav {
   display: flex;
   align-items: center;
 }
+.goldview {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+}
+.abouttt {
+  padding-top:0rem;
+}
 .about-container {
   width: 50%;
+  padding-top: 2.5rem;
 }
 .abt-first {
   margin-bottom: .8rem;
@@ -684,16 +700,49 @@ nav {
 }
 
 .pay2 img{
-  width: 10rem;
+  width: 80%;
+  margin: auto;
   background-color: black;
   padding: 5px;
 }
-.pay3 {
+/* .pay3 {
   width: 8rem;
   padding: 5px;
 }
+ */
 
+.trade {
+  border-top: 1px solid var(--color-gray-300);
+  border-bottom: 1px solid var(--color-gray-300);
+  padding-bottom: 1rem;
+}
 
+.trade p {
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.pro-list {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+.pro-list ul {
+  text-align: left;
+}
+
+.pro-list ul li {
+  font-size: 10px;
+}
+
+.pro-list i {
+  color: rgb(105, 105, 105);
+}
+
+.pro-list .good {
+  color: rgb(52, 147, 230);
+}
 
 
 /* stock stats */
@@ -1469,7 +1518,7 @@ nav {
   }
 
   .nav-menu li a {
-    padding: 1rem 4rem;
+    padding: .5rem 4rem;
     width: 100%;
     display: block;
     border-top: 1px solid var(--color-gray-300);
@@ -1532,10 +1581,11 @@ nav {
   }
  
   .nav-logo img {
-    width: 100%;
+    width: 90%;
     margin-left: -10px;
   }
 
+  
   /* header */
   .swipe-cont h1 {
     font-size: 32px;
@@ -1609,7 +1659,9 @@ nav {
   nav {
     height: 4rem;
   }
-  
+  .nav-container {
+    height: 4rem;
+  }
   .nav-menu {
     position: fixed;
     right: 0;
@@ -1626,12 +1678,11 @@ nav {
     border-bottom: 1px solid var(--color-gray-600);
   }
 
-  .nav-logo {
-    margin-top: -15px;
+.nav-logo {
+    /* margin-top: -15px; */
     width: 6rem;
-    height: 5rem;
-  }
-  
+    /* height: 5rem; */
+  }  
 
   .swiper {
     min-height: 80vh;
@@ -1768,20 +1819,32 @@ nav {
     width: var(--container-width-sm);
     margin-bottom: 3rem;
   }
-  .run {
-    width: 100%;
+   .run {
+    width: 50%;
     display: block;
     text-align: center;
     gap: 1rem;
   }
-  .run i {
-    font-size: 4rem;
+  .run ul {
+    width: 100%;
+    text-align: left;
+  }
+  .run ul li {
+    font-size: 1.3rem;
+  }
+  .Larun {
+    width: 60%;
+    /* height: 40vh; */
+  }
+  .Larun img {
+    height: 50vh;
   }
   .counter {
     font-weight: bold;
     font-size: 1.3rem;
   }
 
+  
   /* youtube iframe */
   .video {
     position: relative;
@@ -2291,7 +2354,7 @@ nav {
 
 @media screen and (max-width: 599px) {
   .nav-logo {
-    margin-left: -4px;
+/*     margin-left: -4px; */
     width: 5.8rem;
     /* height: 5rem; */
   }
@@ -2333,15 +2396,31 @@ nav {
   }
 
 /*   payments */
-    .pay1 {
+ .pay1 {
     width: 100%;
     margin-top: 1.5rem;
   }
   .pay2 img{
-    width: 5rem;
+    width: 15rem;
   }
   .pay3 {
     width: 4rem;
     padding: 0px 5px;
   }
+
+    .run ul {
+    width: 100%;
+    text-align: left;
+  }
+  .run ul li {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .Larun {
+    width: 50%;
+  }
+  .Larun img {
+    height: 90%;
+  }
+
 }
