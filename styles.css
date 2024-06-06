@@ -2419,6 +2419,16 @@ nav {
     margin: 8px auto;
   }
 
+  /* header */
+  .swipe {
+    line-height: 1.5;
+    padding-top: 5rem;
+  }
+  .swipe-cont h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
 /*   payments */
  .pay1 {
     width: 100%;
