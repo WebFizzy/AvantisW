@@ -2450,14 +2450,14 @@ nav {
 }
 
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 415px) {
   /* header */
   .swipe {
     line-height: 1.5;
     padding-top: 5rem;
   }
   .swipe-cont h1 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 50px;
   }
 
